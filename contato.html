@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato - Luis Eduardo Patines</title>
+</head>
+<body>
+        <nav>
+            <div class="link">
+                <a href="index.html">Home</a>
+                <a href="sobre.html">Sobre mim</a>
+                <a href="formacao.html">Formações</a>
+                <a href="contato.html">Contato</a>
+            </div>
+        </nav>
+    <header>
+        <div class="formulario">
+            <h3>Mande um E-mail</h3>
+            <form action="">
+                <div>
+                    <label for="nome">Nome</label>
+                <input type="text" id="nome"value="" placeholder="Digite seu nome">
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                <input type="Email" id="email" value="" placeholder="Digite seu email">
+                </div>
+
+                <div>
+                    <label for="mensagem">mensagem</label>
+                <textarea id="mensagem" rows="4" cols="30"></textarea>
+                </div>
+
+                <button onclick="enviarform()">Enviar</button>
+            </form>
+        </div>
+    </header>
+    <footer>
+        <p>© Direitos reservados a Luis Eduardo - 2024</p>
+        <div class="redes-sociais">
+            <a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="facebook"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="Instagram"></a>
+            <a href="https://www.linkedin.com/in/luiseduardopatines/" target="_blank"><img src="img/linkeedin.png" alt="Linkeedin"></a>
+            <a href="https://twitter.com/home" target="_blank"><img src="img/twitter.png" alt="twitter"></a>
+        </div>
+    </footer>
+    
+    <script>
+        function enviarform(){
+            alert("Email enviado com sucesso")
+        }
+    </script>
+</body>
+</html>
